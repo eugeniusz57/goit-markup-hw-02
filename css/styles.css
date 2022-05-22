@@ -1,0 +1,82 @@
+/* main color, h1 text color,  fff */
+/* second color 2f303a */
+/* main text color 757575  */
+/* h2,h3 color text 212121 and menu */
+/*accent color 2196F3 */
+/*  */
+
+:root{
+    --main-bg: #fff;
+    --second-bg: #2f303a;
+    --main-text-color: #757575;
+    --h-color-text: #212121;
+    --btn-and-accent: #2196F3; 
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg);
+    color:var(--main-text-color);
+        
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.blu{
+    color: var(--btn-and-accent);
+}
+.site-nav .link{
+    color: var(--h-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--btn-and-accent);
+}
+.contact .contact-link{
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact .contact-link:hover,
+.contact .contact-link:focus{
+    color: var(--btn-and-accent);    
+}
+
+.hero{
+    background-color: var(--second-bg) ;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-bg);
+}
+.btn{
+    background-color:var(--btn-and-accent);
+    color: var(--main-bg);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.feature-list .title{
+    color: var(--h-color-text);
+}
+
