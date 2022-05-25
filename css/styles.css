@@ -11,6 +11,10 @@
     --main-text-color: #757575;
     --h-color-text: #212121;
     --btn-and-accent: #2196F3; 
+    --footer-contact: #ffffff99;
+    --btn-hover-primery: #188CE8;
+    --btn-portfolio-bgr: #F5F4FA;
+    --logo-heder: #000;
     
 }
 
@@ -26,7 +30,7 @@ body{
 }
 .logo{
     font-family: 'Raleway', sans-serif;
-    color: #000;
+    color: var(--logo-heder);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -87,7 +91,7 @@ body{
 }
 .btn:hover,
 .btn:focus{
-   background-color: #188CE8;;
+   background-color: var(--btn-hover-primery);
 }
 .feature-list .title{
     color: var(--h-color-text);
@@ -127,7 +131,7 @@ color: var(--main-text-color);
     display: none;
 }
 .site-nav .curentli{
-    color: rgb(147, 150, 147);
+    color: var(--btn-and-accent);
 }
 .footer{
     background-color: var(--second-bg);
@@ -136,7 +140,7 @@ color: var(--main-text-color);
     color: var(--main-bg);
 }
 .footer-link{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contact);
     text-decoration: none;
 }
 .footer .logo{
@@ -156,7 +160,7 @@ color: var(--main-text-color);
     color: var(--h-color-text);
 }
 .btn-portfolio{
-background-color: #F5F4FA;
+background-color: var(--btn-portfolio-bgr);
 color: var(--h-color-text);
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
